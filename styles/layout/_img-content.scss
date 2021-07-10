@@ -1,0 +1,27 @@
+
+
+.img-content {
+
+    .title {
+        width: 100%;
+        margin-bottom: 0;
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+        color: $color-tertary;
+    }
+
+    .info {
+        margin-top: 0;
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #86bfd3;
+    }
+
+
+    img {
+        width: 85%;
+        height: auto;
+        object-fit: cover;
+    }
+}

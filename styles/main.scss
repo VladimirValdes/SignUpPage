@@ -1,0 +1,57 @@
+@import './abstracts/palette';
+
+@import './layout/img-content';
+@import './layout/form-content';
+@import './responsive/main-responsive';
+
+html {
+    font-size: 65.5%;
+    font-family: $font;  
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+
+    background-image: url('../assets/Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+
+    .img-content {
+        flex: 0 0 375px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        height: 400px;
+
+        background-color: $color-primary;
+        
+        
+        
+        box-shadow: 16px 34px 42px -29px rgba(0,0,0,0.1);
+
+    }
+
+    
+    .sigUp-content {
+        flex: 0 0 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+        
+        background-color: $color-tertary;
+
+        border-top: 1px solid $color-input;
+        border-bottom: 1px solid $color-input;
+        border-right: 1px solid $color-input;
+        
+        box-shadow: 16px 34px 42px -29px rgba(0,0,0,0.1);
+
+    }
+}

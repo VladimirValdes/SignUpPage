@@ -1,0 +1,134 @@
+.img-content .title {
+  width: 100%;
+  margin-bottom: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+.img-content .info {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #86bfd3;
+}
+.img-content img {
+  width: 85%;
+  height: auto;
+  object-fit: cover;
+}
+
+.sigUp-content .title {
+  width: 225px;
+  margin-bottom: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+}
+.sigUp-content .form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  width: 225px;
+}
+.sigUp-content .form__label {
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.sigUp-content .form__input {
+  margin: 0.5rem 0 1rem 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 1px solid #d4d0cb;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: -36px 2px 79px -18px rgba(0, 0, 0, 0.1);
+}
+.sigUp-content .form__content {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0.5rem;
+}
+.sigUp-content .form__info {
+  margin-left: 0.5rem;
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 0.5px;
+}
+.sigUp-content .form__info a {
+  font-weight: 600;
+  color: #013243;
+}
+.sigUp-content .form__btn {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #013243;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.sigUp-content .form__btn:hover {
+  background-color: #016485;
+}
+
+@media (min-width: 43em) {
+  main {
+    height: 100vh;
+  }
+}
+@media (min-width: 62em) {
+  main .img-content {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  main .sigUp-content {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+html {
+  font-size: 65.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  background-image: url("../assets/Background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .img-content {
+  flex: 0 0 375px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 400px;
+  background-color: #013243;
+  box-shadow: 16px 34px 42px -29px rgba(0, 0, 0, 0.1);
+}
+main .sigUp-content {
+  flex: 0 0 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  background-color: #fff;
+  border-top: 1px solid #d4d0cb;
+  border-bottom: 1px solid #d4d0cb;
+  border-right: 1px solid #d4d0cb;
+  box-shadow: 16px 34px 42px -29px rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=main.css.map */

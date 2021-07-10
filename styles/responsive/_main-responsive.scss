@@ -1,0 +1,22 @@
+
+@media ( min-width: 43em ) {
+    main {
+        height: 100vh;
+        
+    }
+}
+
+@media ( min-width: 62em ) {
+    main {
+
+        .img-content {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .sigUp-content{
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+}
