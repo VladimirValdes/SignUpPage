@@ -104,10 +104,8 @@ main {
   flex-flow: row wrap;
   justify-content: center;
   align-content: center;
-  background-image: url("../assets/Background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(254deg, #FFFFFF 21%, #f4b591 50%, #ee7da2 100%);
 }
 main .img-content {
   flex: 0 0 375px;
